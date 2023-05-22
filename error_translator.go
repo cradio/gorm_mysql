@@ -1,9 +1,8 @@
 package mysql
 
 import (
+	"github.com/cradio/gormx"
 	"github.com/go-sql-driver/mysql"
-
-	"gorm.io/gorm"
 )
 
 var errCodes = map[string]uint16{
